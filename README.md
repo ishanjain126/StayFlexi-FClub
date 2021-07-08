@@ -18,10 +18,9 @@ It consists of three components:
 2. Add Player (One can add football players from here)
 3. Settings (Can update the user profile from here)
 
-# Note: This app has been designed keeping the pointers in mind as well as the time boundations. Lot can be done to improve the app. 
-## Future Scope
-1. Adding auth
-2. Improving the flow
-3. Adding more functionalities to both web app and the landing page
+# Getting Started
+Clone the repo onto your local host 
+### npm install - To install all the dependencies
+### npm start - To get started
 
-# Author: Ishan Jain
+### Author: Ishan Jain
