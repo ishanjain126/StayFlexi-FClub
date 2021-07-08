@@ -4,7 +4,6 @@ import PlayerCard from '../Helper/PlayerCard'
 import PlayerList from "../Sections/WebApp/Dashboard/PlayerList.json"
 import * as FiIcons from "react-icons/fi";
 import * as BsIcons from "react-icons/bs";
-import {useDrag, useDrop} from "react-dnd";
 import update from "immutability-helper";
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
@@ -20,7 +19,7 @@ function Dashboard() {
 
     const [clsName, setClsName] = useState("tableForm")
     const [toggle, setToggle] = useState(true)
-    const [icon, setIcon] = useState(<BsIcons.BsViewList size="30px" />)
+    // const [icon, setIcon] = useState(<BsIcons.BsViewList size="30px" />)
     const [typeWrapper, setTypeWrapper] = useState("tableWrapper")
 
     // Implementing the toggle functionality from table view to card view. Default is set to table view
@@ -32,9 +31,9 @@ function Dashboard() {
         {toggle ? setTypeWrapper("tableWrapper") : setTypeWrapper("cardWrapper")}
     }, [toggle])
 
-    useEffect(() => {
-        {typeWrapper === "tableWrapper" ? setIcon(<BsIcons.BsViewList size="30px" />) : <FiIcons.FiGrid size="30px" />}
-    }, [])
+    // useEffect(() => {
+    //     {typeWrapper === "tableWrapper" ? setIcon(<BsIcons.BsViewList size="30px" />) : <FiIcons.FiGrid size="30px" />}
+    // }, [])
 
     useEffect(() => {
         {toggle ? setClsName("tableForm") :  setClsName("cardForm")}

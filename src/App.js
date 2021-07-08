@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Route, BrowserRouter as Router, Link} from "react-router-dom"
+import {Switch, Route, BrowserRouter as Router} from "react-router-dom"
 import Homepage from './Components/Pages/Homepage';
 import Dashboard from "./Components/Pages/Dashboard"
 import AddPlayer from "./Components/Pages/AddPlayer"

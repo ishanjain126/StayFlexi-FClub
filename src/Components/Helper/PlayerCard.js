@@ -1,8 +1,5 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, {useRef} from 'react'
 import {absoluteURL} from "../../Utils/index"
-import Button_1 from "../Helper/Button_1"
-import * as FiIcons from "react-icons/fi";
-import * as BsIcons from "react-icons/bs";
 import { useDrag, useDrop } from 'react-dnd';
 import {ItemTypes} from "../../Utils/index";
 

@@ -3,7 +3,7 @@ import Sidebar from "../Sections/WebApp/Sidebar";
 import {useFormik} from "formik";
 import * as GiIcons from "react-icons/gi";
 import { absoluteURL } from '../../Utils';
-import Button_1 from '../Helper/Button_1';
+import Button1 from '../Helper/Button1';
 
 
 // This section deals with the Add Player page of the Player dashboard. Optimized for both desktop and mobile view. 
@@ -17,9 +17,6 @@ function AddPlayer() {
 
     function validate(values){
         const errors = {}
-        if(!values.photo){
-            errors.photo = "Please upload a pic!";
-        }
         if(!values.name){
             errors.name = "Name cannot be empty!";
         }
@@ -115,9 +112,9 @@ function AddPlayer() {
                                         <div className="inputText">
                                             Please click here to upload the photo
                                         </div>
-                                        {formik.errors.photo ? <div className="errorField">{formik.errors.photo}</div>: null}
+                                        {/* {formik.errors.photo ? <div className="errorField">{formik.errors.photo}</div>: null} */}
                                         <div className="formSubmitButton1">
-                                            <Button_1 text="Submit" onClick={formik.handleSubmit} />
+                                            <Button1 type="Submit" text="Submit" link="/add" onClick={formik.handleSubmit} />
                                         </div>
                                     </div>
                                 </div>
@@ -296,7 +293,7 @@ function AddPlayer() {
                             </div>
                         </form>
                         <div className="formSubmitButton2">
-                            <Button_1 text="Submit" onClick={formik.handleSubmit} />
+                            <Button1 type="Submit" text="Submit" link="/add" onClick={formik.handleSubmit} />
                         </div>
                     </div>
                 </div>

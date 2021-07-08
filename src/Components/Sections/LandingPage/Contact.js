@@ -1,6 +1,6 @@
 import React from 'react'
 import {useFormik} from "formik";
-import Button_1 from "../../Helper/Button_1";
+import Button1 from "../../Helper/Button1";
 
 function Contact() {
 
@@ -105,7 +105,7 @@ function Contact() {
                     </div>
                 </form>
                 <div className="submitQueryButton">
-                    <Button_1 text="Send Query" onClick={formik.handleSubmit} />
+                    <Button1 text="Send Query" onClick={formik.handleSubmit} />
                 </div>
             </div>
         </div>

@@ -16,6 +16,7 @@ function News() {
                 {newsData.map((item, index) => {
                     return(
                         <NewsCard 
+                        key={index}
                         img={item.news_banner}
                         heading={item.news_headline}
                         newsContent={item.news}

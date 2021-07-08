@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import Sidebar from "../Sections/WebApp/Sidebar";
 import {useFormik} from "formik";
-import Button_1 from "../Helper/Button_1";
+import Button1 from "../Helper/Button1";
 
 function Settings() {
 
@@ -113,7 +113,7 @@ function Settings() {
                             </div>
                         </form>
                         <div className="updateButton">
-                            <Button_1 text="Update Profile" onClick={checkPassword && formik.handleSubmit} />
+                            <Button1 type="Submit" text="Update Profile" onClick={checkPassword && formik.handleSubmit} />
                         </div>
                     </div>
                 </div>

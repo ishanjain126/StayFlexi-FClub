@@ -1,13 +1,11 @@
 import React, {useState} from 'react'
 import ReactPlayer from 'react-player/youtube';
 import StatsCard from '../Helper/StatsCard';
-import Button_1 from '../Helper/Button_1';
 import { absoluteURL } from '../../Utils'
-import ReactDOM from 'react-dom';
 import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
 import CustomModal from '../Helper/CustomModal';
 import {useFormik} from "formik"
+import Button1 from "../Helper/Button1";
 
 // Homesection of the landing page. Containing call to action buttons such as Register and Login
 // Login redirects you to the dashboard.
@@ -100,8 +98,8 @@ function HomeSection() {
                 <StatsCard skillName="Points" skillStats="0.73" />
             </div>
             <div className="btnWrapper">
-                <Button_1  text="Register" onClick={onOpenRegisterModal} />
-                <Button_1  text="Login" onClick={onOpenLoginModal}/>
+                <Button1  text="Register" onClick={onOpenRegisterModal} />
+                <Button1  text="Login" onClick={onOpenLoginModal}/>
             </div>
 
             <CustomModal 
@@ -160,7 +158,7 @@ function HomeSection() {
                                 </div>
                             </form>
                             <div className="loginregistrationButton">
-                                <Button_1 text="Register" onClick={formikRegister.handleSubmit} />
+                                <Button1 text="Register" onClick={formikRegister.handleSubmit} />
                             </div>
                         </div>
                     </div>
@@ -210,7 +208,7 @@ function HomeSection() {
                                 </div>
                             </form>
                             <div className="loginregistrationButton">
-                                <Button_1 text="Login" link="/dashboard" />
+                                <Button1 text="Login" link="/dashboard" />
                             </div>
                         </div>
                     </div>

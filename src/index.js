@@ -10,12 +10,12 @@ import {TouchBackend} from "react-dnd-touch-backend";
 // Have wrapped the entire component using HTML5Backend, Can be done using Touch Backend too (for mobile)
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <DndProvider backend={HTML5Backend}>
       {/* <DndProvider backend ={TouchBackend}> */}
       <App />
       {/* </DndProvider> */}
-    </DndProvider>
-  </React.StrictMode>,
+    </DndProvider>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
