@@ -1,0 +1,141 @@
+.settingsDashboard{
+    margin-top: 100px;
+    font-family: var(--poppins);
+    font-size: 22px;
+    margin-left: 45px;
+    overflow: hidden;
+    .settingsHeading{
+        font-weight: bold;
+    }
+    .updateProfileForm{
+        margin-top: 25px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        overflow: hidden;
+        font-family: var(--poppins);
+        background-color: #13151C;
+        padding: 15px;
+        margin-right: 50px;
+        height: 480px;
+        width: 1000px;
+        text-align: center;
+        .updateForm{
+            margin-left: 175px;
+            margin-top: 5px;
+            text-align: center;
+            .twoFields{
+                text-align: left;
+                display: flex;
+                flex-direction: row;
+                // justify-content: center;
+                .formFields{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 25px;
+                    margin-right: 25px;
+                    margin-top: 25px;
+                    .label{
+                        color:white;
+                        font-size: 15px;
+                        font-weight: normal;
+                    }
+                    .input{
+                        border: none;
+                        border-radius: 10px;
+                        color: white;
+                        padding: 10px 15px 10px 15px;
+                        font-size: 12px;
+                        width: 250px;
+                        background-color: #05060e;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        margin-bottom: 10px;
+                    }
+                    .input::placeholder{
+                        font-size: 12px;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        .updateButton{
+            margin-top: 45px;
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .settingsDashboard{
+        margin-top: 100px;
+        font-family: var(--poppins);
+        font-size: 22px;
+        margin-left: 5px;
+        margin-right: 5px;
+        overflow: hidden;
+        margin-bottom: 25px;
+        padding: 15px;
+        .settingsHeading{
+            font-weight: bold;
+        }
+        .updateProfileForm{
+            margin-top: 25px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            font-family: var(--poppins);
+            background-color: #13151C;
+            padding: 0px;
+            margin-right: 0px;
+            height: auto;
+            width: auto;
+            text-align: center;
+            .updateForm{
+                margin-left: 0px;
+                margin-top: 5px;
+                text-align: center;
+                .twoFields{
+                    text-align: left;
+                    display: flex;
+                    flex-direction: column;
+                    // justify-content: center;
+                    .formFields{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-left: 25px;
+                        margin-right: 25px;
+                        margin-top: 25px;
+                        .label{
+                            color:white;
+                            font-size: 15px;
+                            font-weight: normal;
+                        }
+                        .input{
+                            border: none;
+                            border-radius: 10px;
+                            color: white;
+                            padding: 10px 15px 10px 15px;
+                            font-size: 12px;
+                            width: 250px;
+                            background-color: #05060e;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                            margin-bottom: 10px;
+                        }
+                        .input::placeholder{
+                            font-size: 12px;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+            .updateButton{
+                margin-top: 25px;
+                font-size: 15px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

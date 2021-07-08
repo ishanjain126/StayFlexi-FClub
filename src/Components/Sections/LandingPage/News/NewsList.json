@@ -1,0 +1,28 @@
+{
+    "NewsList":[
+        {
+            "id":"1",
+            "news_headline":"EURO 2021 : Christian Eriksen And Wife Invited At Wembley Stadium For Final, Says Report",
+            "news":"Jul 07, 2021Asian News InternationalEuro 2020: Christian Eriksen And Wife Invited At Wembley Stadium For Final, Says ReportDenmark midfielder Christian Eriksen who earlier collapsed during the first half game against Finland has been invited to Wembley Stadium with his wife for the final match.",
+            "publisherName":"NDTV news",
+            "time":"7 July 2021",
+            "news_banner":"banner_1.jpg"
+        },
+        {
+            "id":"2",
+            "news_headline":"Aakash AryaEuro 2020, Italy vs Spain: Sports Personalities React To Penalty Shootout In Semi-Final",
+            "news":"UEFA Euro 2020: Sports personalities around the world, including cricketers Ravichandran Ashwin and Mohammed Shami, reacted to a thrilling semi-final clash between Italy and Spain which was decided through a penalty shootout.",
+            "publisherName":"Aakash Arya",
+            "time":"Jul 07, 2021",
+            "news_banner":"banner_2.jpg"
+        },
+        {
+            "id":"3",
+            "news_headline":"UEFA Euro 2020: Sports personalities around the world, including cricketers Ravichandran Ashwin and Mohammed Shami, reacted to a thrilling semi-final clash between Italy and Spain which was decided through a penalty shootout.",
+            "news":"Argentina defeats Colombia in the semifinals on penalties after three saves by goalkeeper Emiliano Martinez.",
+            "publisherName":"Francais",
+            "time":"July 7 2021",
+            "news_banner":"banner_3.jpg"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+.customModal{
+    border: none;
+    border-radius: 10px;
+    font-family: var(--poppins);
+    margin-left: -25px;
+    background: #191B24;
+    width: 100%;
+}
+
+@media screen and (max-width: 480px){
+    .customModal{
+        border: none;
+        border-radius: 10px;
+        font-family: var(--poppins);
+        margin-left: -25px;
+        background: #191B24;
+        width: 90%;
+    }
+}

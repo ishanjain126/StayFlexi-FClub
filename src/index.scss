@@ -1,0 +1,28 @@
+@import "./Style/variable.scss";
+@import "./Style/_navbar";
+@import "./Style/__home";
+@import "./Style/__statsCard";
+@import "./Style/__button1";
+@import "./Style/__customModal";
+@import "./Style/_sidebar";
+@import "./Style/_dashboard";
+@import "./Style/_addPlayer";
+@import "./Style/__settings";
+@import "./Style/__playerCard";
+@import "./Style/__news.scss";
+@import "./Style/_newsCard";
+@import "./Style/__contact";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

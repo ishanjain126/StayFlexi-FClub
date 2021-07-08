@@ -1,0 +1,19 @@
+{
+    "SidebarItems" : [
+        {
+            "icon" : "dashboard",
+            "title" : "Dashboard",
+            "link" : "/dashboard"
+        },
+        {
+            "icon": "addPlayers",
+            "title": "Add Players",
+            "link" : "/add"
+        },
+        {
+            "icon": "settings",
+            "title": "Settings",
+            "link" : "/settings"
+        }
+    ]
+}

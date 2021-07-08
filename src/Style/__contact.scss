@@ -1,0 +1,106 @@
+.contactWrapper{
+    background-color: #1F222D;
+    font-family: var(--poppins);
+    padding: 25px;
+    color: white;
+    padding-bottom: 50px;
+    .contactHeading{
+        margin-top: 75px;
+        margin-left: 45px;
+        font-size: 35px;
+    }
+    .contactsubHeading{
+        margin-left: 45px;
+        font-size: 20px;    
+        margin-top: 10px;
+    }
+    .queryForm{
+        margin-top: 45px;
+        .queryLabelInputWrapper{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .label{
+                margin-bottom: 10px;
+                font-size: 15px;
+                text-align: left;
+                font-weight: normal;
+               align-items: flex-start;
+            }
+            .input{
+                border: none;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                overflow: hidden;
+                font-family: var(--poppins);
+                background-color: #05060E;
+                padding: 15px;
+                width: 500px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .submitQueryButton{
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+.queryErrorField{
+    color:red;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 8px;
+}
+
+@media screen and (max-width:480px) {
+    .contactWrapper{
+        background-color: #1F222D;
+        font-family: var(--poppins);
+        padding: 15px;
+        color: white;
+        padding-bottom: 50px;
+        .contactHeading{
+            margin-top: 35px;
+            margin-left: 25px;
+            font-size: 30px;
+        }
+        .contactsubHeading{
+            margin-left: 25px;
+            font-size: 20px;    
+            margin-top: 10px;
+        }
+        .queryForm{
+            margin-top: 45px;
+            .queryLabelInputWrapper{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .label{
+                    margin-bottom: 10px;
+                    font-size: 15px;
+                    text-align: left;
+                    font-weight: normal;
+                   align-items: flex-start;
+                }
+                .input{
+                    border: none;
+                    border-radius: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    overflow: hidden;
+                    font-family: var(--poppins);
+                    background-color: #05060E;
+                    padding: 15px;
+                    width: 250px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .submitQueryButton{
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+}

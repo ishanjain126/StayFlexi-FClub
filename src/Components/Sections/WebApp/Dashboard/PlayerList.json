@@ -1,0 +1,56 @@
+{
+    "PlayerList":[
+        {
+            "id":"1",
+            "pic":"ronaldo.jpg",
+            "name":"Cristiano Ronaldo",
+            "age":"36 yo",
+            "current_club":"Juventus",
+            "previous_club":"Real Madrid",
+            "debut_year":"2001",
+            "total_goals":"780",
+            "total_assists":"210",
+            "position":"forward",
+            "total_freekicks":"55"
+        },
+        {
+            "id":"2",
+            "pic":"messi.jpg",
+            "name":"Lionel Messi",
+            "age":"36 yo",
+            "current_club":"FC Barcelona",
+            "previous_club":"Real Madrid",
+            "debut_year":"2001",
+            "total_goals":"780",
+            "total_assists":"210",
+            "position":"forward",
+            "total_freekicks":"55"
+        },
+        {
+            "id":"3",
+            "pic":"robert.jpg",
+            "name":"Robert Lewandowski",
+            "age":"36 yo",
+            "current_club":"Bayern Munich",
+            "previous_club":"Real Madrid",
+            "debut_year":"2001",
+            "total_goals":"780",
+            "total_assists":"210",
+            "position":"forward",
+            "total_freekicks":"55"
+        },
+        {
+            "id":"4",
+            "pic":"neymar.jpg",
+            "name":"Neymar",
+            "age":"36 yo",
+            "current_club":"Paris Saint-Germain",
+            "previous_club":"Real Madrid",
+            "debut_year":"2001",
+            "total_goals":"780",
+            "total_assists":"210",
+            "position":"forward",
+            "total_freekicks":"55"
+        }
+    ]
+}

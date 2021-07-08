@@ -1,0 +1,35 @@
+.sideBarWrapper{
+    background-color: #13151C;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: hidden;
+    .header{
+        font-size: 15px;
+        font-family: var(--poppins);
+        margin-left: 25px;
+        margin-top: 25px;
+        margin-bottom: 50px;
+        font-weight: bold;
+    }
+    .sideBarIcons{
+        font-family: var(--poppins);
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        .text{
+            font-size: 12px;
+            margin-top: 5px;
+            font-weight: bold;
+            font-family: var(--poppins);
+        }
+        .text:hover{
+            color: red;
+        }
+    }
+}
+

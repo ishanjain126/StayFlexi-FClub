@@ -1,0 +1,270 @@
+.addPlayerWrapper{
+    margin-top: 100px;
+    font-family: var(--poppins);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 45px;
+    overflow: hidden;
+    .addHeading{
+        // margin-top: 100px;
+        font-size: 22px;
+    }
+    .listNewPlayerForm{
+        margin-top: 25px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        overflow: hidden;
+        font-family: var(--poppins);
+        // background-color: #1F222D;
+        background-color: #13151C;
+        padding: 15px;
+        color: white;
+        overflow: hidden;
+        margin-right: 50px;
+        height: 480px;
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        overflow-y: scroll;
+        .form{
+            display: flex;
+            flex-direction: row;
+            .playerImageWrapper{
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+                margin-left: 25px;
+                .previewBox{
+                    margin: auto;
+                    margin-top: 25px;
+                    text-align: center;
+                    overflow: hidden;
+                    width: 250px;
+                    height: 200px;
+                    background-color: #05060e;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    border: none;
+                    border-radius: 10px;
+                    .profileImg{
+                        height: 200px;
+                        width: 250px;
+                    }   
+                }
+                .playerImage{
+                    margin-top: 25px;
+                    .inputText{
+                        text-align: center;
+                        font-size: 12px;
+                        margin: auto;
+                        // color: #6b6c6e;
+                        color: white;
+                        font-weight: normal;
+                        margin-top:-25px;
+                    }
+                    .photoInp{
+                        border: none;
+                        margin-top:-150px;
+                        .photoInput{
+                            background-color: #05060e;
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                            padding: 35px 0 0 0;
+                            width: 265px;
+                            height: 0px;
+                            overflow: hidden;
+                            -webkit-box-sizing: border-box;
+                            -moz-box-sizing: border-box;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .formSubmitButton1{
+                        margin-top: 35px;
+                        text-align: center;
+                        font-weight: normal;
+                    }
+                }
+            }
+            .playerDetails{
+                display: flex;
+                flex-direction: column;
+                margin-top: 25px;
+                margin-left: 105px;
+                .twoFields{
+                    display: flex;
+                    flex-direction: row;
+                    margin-right: 25px;
+                    .labelInputWrapper{
+                        margin-bottom: 18px;
+                        margin-right: 75px;
+                        .label{
+                            font-family: var(--poppins);
+                            font-size: 12px;
+                            font-weight: normal;
+                        }
+                        .input{
+                            background-color: #05060e;
+                            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                            border: none;
+                            border-radius: 10px;
+                            padding: 9px 20px 9px 20px;
+                            margin-top: 5px;
+                            font-size: 12px;
+                            font-weight: 300;
+                        }
+                        .input::placeholder{
+                            font-size: 12px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+        .formSubmitButton2{
+            display: none;
+        }
+    }
+}
+
+.errorField{
+    color: red;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:480px) {
+    .addPlayerWrapper{
+        margin-top: 100px;
+        font-family: var(--poppins);
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 25px;
+        overflow: hidden;
+        .addHeading{
+            // margin-top: 100px;
+            font-size: 22px;
+        }
+        .listNewPlayerForm{
+            // margin: auto;
+            margin-top: 25px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            font-family: var(--poppins);
+            background-color: #13151C;
+            padding: 5px;
+            color: white;
+            margin-right: 15px;
+            height: auto;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 75px;
+            text-align: center;
+            .form{
+                display: flex;
+                flex-direction: column;
+                .playerImageWrapper{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 25px;
+                    margin-left: 0px;
+                    align-items: center;
+                    text-align: center;
+                    .previewBox{
+                        margin-top: 25px;
+                        overflow: hidden;
+                        width: 250px;
+                        height: 200px;
+                        background-color: #05060e;
+                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                        border: none;
+                        border-radius: 10px;
+                        .profileImg{
+                            height: 200px;
+                            width: 250px;
+                        }   
+                    }
+                    .playerImage{
+                        margin-top: 25px;
+                        .inputText{
+                            text-align: center;
+                            font-size: 12px;
+                            margin: auto;
+                            color: white;
+                            font-weight: normal;
+                            margin-top:-25px;
+                        }
+                        .photoInp{
+                            border: none;
+                            margin-top:0px;
+                            .photoInput{
+                                background-color: #05060e;
+                                border: none;
+                                border-radius: 10px;
+                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                padding: 35px 0 0 0;
+                                width: 265px;
+                                height: 0px;
+                                overflow: hidden;
+                                -webkit-box-sizing: border-box;
+                                -moz-box-sizing: border-box;
+                                box-sizing: border-box;
+                            }
+                        }
+                        .formSubmitButton1{
+                            display: none;
+                            margin-top: 35px;
+                            text-align: center;
+                            font-weight: normal;
+                        }
+                    }
+                }
+                .playerDetails{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 25px;
+                    margin-left: 0px;
+                    .twoFields{
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 25px;
+                        margin-left: 25px;
+                        .labelInputWrapper{
+                            margin-bottom: 18px;
+                            margin-right: 0px;
+                            .label{
+                                font-family: var(--poppins);
+                                font-size: 12px;
+                                font-weight: normal;
+                            }
+                            .input{
+                                background-color: #05060e;
+                                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                                border: none;
+                                border-radius: 10px;
+                                padding: 9px 20px 9px 20px;
+                                margin-top: 5px;
+                                font-size: 12px;
+                                font-weight: 300;
+                            }
+                            .input::placeholder{
+                                font-size: 12px;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+            }
+            .formSubmitButton2{
+                display: block;
+                margin-top: 25px;
+                text-align: center;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}

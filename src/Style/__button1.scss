@@ -1,0 +1,18 @@
+.button1Wrapper{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    text-align: center;
+    // background-color: #13151C;
+    background-color: #05060E;
+    margin-right: 15px;
+    font-family: var(--poppins);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-width: 115px;
+}
+.button1Wrapper:hover{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}

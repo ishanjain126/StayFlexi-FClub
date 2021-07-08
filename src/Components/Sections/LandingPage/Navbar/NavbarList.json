@@ -1,0 +1,20 @@
+{
+    "NavbarList":[
+        {
+            "name":"Home",
+            "link":"/"
+        },
+        {
+            "name":"News",
+            "link":"#news"
+        },
+        {
+            "name":"Blog",
+            "link":"/blog"
+        },
+        {
+            "name":"Contact Us",
+            "link":"#contact"
+        }
+    ]
+}

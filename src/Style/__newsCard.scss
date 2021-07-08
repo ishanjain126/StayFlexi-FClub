@@ -1,0 +1,98 @@
+.newsCardWrapper{
+    background-color: #13151C;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 25px;
+    margin : auto;
+    margin-top: 25px;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left:15px;
+    margin-right: 15px;
+    .newsBanner{
+        // border: none;
+        // height: 250px;
+        // width: 250;
+        // overflow: hidden;
+        .bannerImg{
+            height: 200px;
+            width:  250px;
+            border-radius: 10px;
+        }
+    }
+    .newsInformation{
+        margin-left: 25px;
+        .newsHeading{
+            font-size: 18px;
+        }
+        .newsContent{
+            margin-top: 15px;
+            font-size: 12px;
+        }
+        .timeAuthor{
+            display: flex;
+            flex-direction: row;
+            margin-top: 5px;
+            color:#6b6c6e;
+            .authorName{
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px) {
+    .newsCardWrapper{
+        background-color: #13151C;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: none;
+        border-radius: 10px;
+        padding: 25px;
+        margin : auto;
+        margin-top: 25px;
+        overflow: hidden;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        margin-left:15px;
+        margin-right: 15px;
+        text-align: center;
+        .newsBanner{
+            // border: none;
+            // height: 250px;
+            // width: 250;
+            // overflow: hidden;
+            .bannerImg{
+                height: 200px;
+                width:  250px;
+                border-radius: 10px;
+            }
+        }
+        .newsInformation{
+            margin-left: 0px;
+            text-align: center;
+            .newsHeading{
+                margin-top: 18px;
+                font-size: 18px;
+            }
+            .newsContent{
+                margin-top: 15px;
+                font-size: 12px;
+            }
+            .timeAuthor{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+                color:#6b6c6e;
+                .authorName{
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}

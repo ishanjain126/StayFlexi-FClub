@@ -1,0 +1,44 @@
+.dashboardWrapper{
+    margin-top: 100px;
+    font-family: var(--poppins);
+    font-size: 15px;
+    margin-left: 25px;
+    color: black;
+    .viewType{
+        margin-bottom: 15px;
+        cursor:pointer;
+    }
+    .tableWrapper{
+
+    }
+    .cardWrapper{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dashboardWrapper{
+        margin-top: 100px;
+        font-family: var(--poppins);
+        font-size: 15px;
+        margin-left: 0px;
+        color: black;
+        overflow: hidden;
+        .viewType{
+            margin-bottom: 15px;
+            cursor:pointer;
+            margin-left: 25px;
+        }
+        .tableWrapper{
+            margin-left: 25px;
+    
+        }
+        .cardWrapper{
+            display: grid;
+            grid-template-columns: auto auto;
+            overflow: hidden;
+            margin-left: 12px;
+        }
+    }
+}
